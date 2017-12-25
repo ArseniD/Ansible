@@ -1,0 +1,7 @@
+[hosts]
+myhost ansible_host=127.0.0.1
+
+[hosts:vars]
+ansible_connection=check_ports
+available_ports=[8080, 2222]
+time_delay=3
