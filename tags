@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AnsibleError	connection_plugins/check_ports.py	/^from ansible.errors import AnsibleError$/;"	i
+Connection	connection_plugins/check_ports.py	/^class Connection(SSH_link):$/;"	c
+Display	connection_plugins/check_ports.py	/^    from ansible.utils.display import Display$/;"	i
+SSH_link	connection_plugins/check_ports.py	/^from ansible.plugins.connection.ssh import Connection as SSH_link$/;"	i
+__init__	connection_plugins/check_ports.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Connection
+__metaclass__	connection_plugins/check_ports.py	/^__metaclass__ = type$/;"	v
+absolute_import	connection_plugins/check_ports.py	/^from __future__ import (absolute_import, division, print_function)$/;"	i
+create_connection	connection_plugins/check_ports.py	/^from socket import create_connection$/;"	i
+display	connection_plugins/check_ports.py	/^    display = Display()$/;"	v
+display	connection_plugins/check_ports.py	/^    from __main__ import display$/;"	i
+division	connection_plugins/check_ports.py	/^from __future__ import (absolute_import, division, print_function)$/;"	i
+print_function	connection_plugins/check_ports.py	/^from __future__ import (absolute_import, division, print_function)$/;"	i
+set_host_overrides	connection_plugins/check_ports.py	/^    def set_host_overrides(self, host, hostvars=None):$/;"	m	class:Connection
+sleep	connection_plugins/check_ports.py	/^from time import sleep$/;"	i
